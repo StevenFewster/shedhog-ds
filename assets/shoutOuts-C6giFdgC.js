@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{t}from"./schema-CUW5BJ-k.js";import{t as n}from"./friendships-BrTfBW81.js";var r,i,a;function o(){return(o=e((()=>{t(),n(),r=1e3,i=`Yeah, I've got one. You can come and get it, and I'll add it to Shedhog later.`,a=`Hey, has anyone got a mitre saw I can borrow this weekend?`})))()}export{o as i,r as n,a as r,i as t};

@@ -1,0 +1,17 @@
+{
+  "name": "Shedhog",
+  "short_name": "Shedhog",
+  "description": "Lend and borrow tools with friends",
+  "start_url": "/shed",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#161616",
+  "theme_color": "#161616",
+  "icons": [
+    { "src": "/icons/shed.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "/icons/shed-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icons/shed-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "/icons/shed-maskable-512.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+  ]
+}
