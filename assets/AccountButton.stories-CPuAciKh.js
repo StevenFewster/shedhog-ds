@@ -1,0 +1,7 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t,p as n}from"./iframe-DyDTyzGL.js";import{n as r,t as i}from"./AccountButton-BdktznfF.js";function a(){return(0,o.useEffect)(()=>{document.getElementById(`story-menu`)?.showPopover()},[]),(0,s.jsx)(`div`,{id:`story-menu`,popover:`manual`,className:`static inset-auto m-0 border-2 border-rib bg-foam p-3 text-chalk`,children:`Account menu`})}var o,s,c,l,u,d;function f(){return(f=e((()=>{o=n(),r(),s=t(),c={title:`Layout/AccountButton`,component:i,args:{name:`Sam Shed`,popover:`story-menu`}},l={},u={name:`Open (arrow flips)`,render:e=>(0,s.jsxs)(`div`,{className:`flex flex-col items-end gap-2`,children:[(0,s.jsx)(i,{...e}),(0,s.jsx)(a,{})]})},d=[`Closed`,`Open`],l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{}`,...l.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{
+  name: "Open (arrow flips)",
+  render: args => <div className="flex flex-col items-end gap-2">
+      <AccountButton {...args} />
+      <OpenMenu />
+    </div>
+}`,...u.parameters?.docs?.source}}}})))()}f();export{l as Closed,u as Open,d as __namedExportsOrder,c as default};

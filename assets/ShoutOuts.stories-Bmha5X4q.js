@@ -1,0 +1,10 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";import{n as t}from"./iframe-DyDTyzGL.js";import{a as n,n as r,o as i,t as a}from"./fixtures-C6MuVvYp.js";import{a as o,i as s,n as c,r as l,t as u}from"./ShoutOutEmails-BaL-coUI.js";var d,f,p,m,h,g,_,v,y,b;function x(){return(x=e((()=>{l(),i(),a(),d=t(),f={title:`Emails/Shout outs`,parameters:{shell:!1}},p=`Hey, has anyone got a tile cutter I can borrow this weekend?`,m={askerName:`Ben`,message:p,offerUrl:r(`/mailbox/S1?offer=1`),replyUrl:r(`/mailbox/S1`)},h={fromName:`Olive`,shoutOut:p,body:`Yeah, I've got one. You can come and get it, and I'll add it to Shedhog later.`,url:r(`/mailbox/S1/olive`),toAsker:!0},g={fromName:`Ben`,shoutOut:p,body:`Brilliant, could I collect Saturday morning?`,url:r(`/mailbox/S1`),toAsker:!1},_={name:`Shout out (to each friend)`,render:()=>(0,d.jsx)(n,{to:`each of the asker's friends`,subject:o(m),email:(0,d.jsx)(u,{...m})})},v={name:`Reply (to the asker)`,render:()=>(0,d.jsx)(n,{to:`the asker`,subject:s(h),email:(0,d.jsx)(c,{...h})})},y={name:`Reply (to the friend)`,render:()=>(0,d.jsx)(n,{to:`the friend`,subject:s(g),email:(0,d.jsx)(c,{...g})})},b=[`ShoutOut`,`ReplyToAsker`,`ReplyToFriend`],_.parameters={..._.parameters,docs:{..._.parameters?.docs,source:{originalSource:`{
+  name: "Shout out (to each friend)",
+  render: () => <EmailFrame to="each of the asker's friends" subject={shoutOutSubject(shout)} email={<ShoutOutEmail {...shout} />} />
+}`,..._.parameters?.docs?.source}}},v.parameters={...v.parameters,docs:{...v.parameters?.docs,source:{originalSource:`{
+  name: "Reply (to the asker)",
+  render: () => <EmailFrame to="the asker" subject={shoutOutReplySubject(toAsker)} email={<ShoutOutReplyEmail {...toAsker} />} />
+}`,...v.parameters?.docs?.source}}},y.parameters={...y.parameters,docs:{...y.parameters?.docs,source:{originalSource:`{
+  name: "Reply (to the friend)",
+  render: () => <EmailFrame to="the friend" subject={shoutOutReplySubject(toFriend)} email={<ShoutOutReplyEmail {...toFriend} />} />
+}`,...y.parameters?.docs?.source}}}})))()}x();export{v as ReplyToAsker,y as ReplyToFriend,_ as ShoutOut,b as __namedExportsOrder,f as default};

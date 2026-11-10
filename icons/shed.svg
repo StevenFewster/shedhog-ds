@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>Shedhog</title>
+  <rect width="512" height="512" rx="48" fill="#161616"/>
+  <path d="M256 84 456 236h-40v196H96V236H56Z" fill="#febd17"/>
+  <rect x="96" y="236" width="320" height="16" fill="#b88400"/>
+  <ellipse cx="256" cy="336" rx="96" ry="68" fill="#b88400"/>
+  <ellipse cx="256" cy="336" rx="96" ry="68" fill="none" stroke="#0a0a0a" stroke-width="10"/>
+  <ellipse cx="222" cy="336" rx="17" ry="27" fill="#0a0a0a"/>
+  <ellipse cx="290" cy="336" rx="17" ry="27" fill="#0a0a0a"/>
+</svg>
